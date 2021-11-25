@@ -1,0 +1,4 @@
+ERROR - 2021-11-14 11:29:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2021-11-14 11:40:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`update_at_at` DATATIME NULL,
+	CONSTRAINT `pk_countries` PRIMARY K...' at line 4

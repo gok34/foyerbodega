@@ -1,0 +1,33 @@
+ERROR - 2021-11-18 12:42:00 --> Table 'users_info' already exists
+ERROR - 2021-11-18 13:55:11 --> Table 'users_info' already exists
+ERROR - 2021-11-18 13:57:09 --> Table 'users_info' already exists
+ERROR - 2021-11-18 13:57:45 --> Table 'users_info' already exists
+ERROR - 2021-11-18 13:59:15 --> Table 'users_info' already exists
+ERROR - 2021-11-18 13:59:55 --> Table 'users_info' already exists
+ERROR - 2021-11-18 14:03:12 --> Table 'users_info' already exists
+ERROR - 2021-11-18 14:05:00 --> Table 'users_info' already exists
+ERROR - 2021-11-18 14:20:07 --> Table 'users_info' already exists
+ERROR - 2021-11-18 14:27:01 --> Table 'users_info' already exists
+ERROR - 2021-11-18 14:28:04 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:29:47 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:30:41 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:34:41 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:38:38 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:39:19 --> Table 'users' already exists
+ERROR - 2021-11-18 14:40:03 --> Table 'users' already exists
+ERROR - 2021-11-18 14:42:47 --> Table 'users' already exists
+ERROR - 2021-11-18 14:43:02 --> Table 'users' already exists
+ERROR - 2021-11-18 14:43:22 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:43:56 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:44:12 --> Table 'users' already exists
+ERROR - 2021-11-18 14:44:20 --> Table 'users' already exists
+ERROR - 2021-11-18 14:44:39 --> Table 'users' already exists
+ERROR - 2021-11-18 14:50:01 --> Table 'users' already exists
+ERROR - 2021-11-18 14:50:38 --> Table 'users' already exists
+ERROR - 2021-11-18 14:51:54 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:56:14 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 14:57:12 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 15:00:06 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 15:05:03 --> Can't create table `codeigniter4`.`users_info` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-18 15:14:39 --> Duplicate column name 'id_user'
+ERROR - 2021-11-18 15:17:03 --> Duplicate column name 'id_user'
