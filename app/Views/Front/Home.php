@@ -134,7 +134,25 @@ Contabilidad
               </a>  
             </div> 
           </div> 
+          <div class="column">
+            <div style="text-align: center;"> 
+              <a href="Contabilidad" class="brand-link">
+                <h1>Contabilidad</h1>
+                <img src="dist/img/conta.png" alt="Contabilidad"  style="opacity: .8">  
+              </a>  
+            </div> 
+          </div> 
         </div> 
+        <div class="row sm-1" >
+          <div class="column">
+            <div style="text-align: center;"> 
+              <a href="Rutas" class="brand-link">
+                <h1>Envios de Pedidos</h1>
+                <img src="dist/img/Envio.png" alt="Envio de Pedidos"  style="opacity: .8">  
+              </a>  
+            </div>  
+          </div>       
+        </div>         
       <table> 
       </div> 
      <!-- <div class="content-footer">

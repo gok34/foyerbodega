@@ -1,6 +1,6 @@
 <?= $this->extend('Front/layout/main') ?>
 <?= $this->section('title') ?>
-Contabilidad
+Envios de Pedido
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
@@ -29,7 +29,7 @@ Contabilidad
   <div class="wrapper">
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    <h3>Ordenes de Compra</h3>
+    <h3>Asignacion de Rutas</h3>
   </nav>
   <!-- /.Inicia menu -->
   <aside class="main-sidebar sidebar-dark-primary  elevation-4">
@@ -121,11 +121,10 @@ Contabilidad
                 </div>
               </div>
               <div class="card-body">
-              
                 <div class="container-fluid slidebar ">
                   <div class="row mb-2 align-items-center">
                     <div class="col-sm-3">
-                      <div class="card card-danger ">
+                      <div class="card card-green">
                         <div class="card-header text-center">
                           <h2 class="card-title text-center" >JM-1952</h2>
                         </div>
@@ -136,22 +135,22 @@ Contabilidad
                             <div class="column" style="font-size:25px;" >1928 </div>  
                           </div>
                           <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Valor orden : </div>  
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
                             <div class="column" style="font-size:25px;" >Q 19.28 </div>  
                           </div>
                           <div class="row sm-1">
                             <div class="column" style="font-size:25px;" >Estado : </div>  
-                            <div class="column" style="font-size:25px;" >Sin asignar </div>  
+                            <div class="column" style="font-size:25px;" >Factura Generada</div>  
                           </div>
                         </table>
                         <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
+                          <i class="fas fa-clipboard-check"></i> Asignar Ruta
                         </a>       
                         </div>                        
                       </div>                      
                   </div>  
                   <div class="col-sm-3">
-                      <div class="card card-danger ">
+                      <div class="card card-info">
                         <div class="card-header text-center">
                           <h2 class="card-title text-center" >JM-1952</h2>
                         </div>
@@ -162,100 +161,20 @@ Contabilidad
                             <div class="column" style="font-size:25px;" >1928 </div>  
                           </div>
                           <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Valor orden : </div>  
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
                             <div class="column" style="font-size:25px;" >Q 19.28 </div>  
                           </div>
                           <div class="row sm-1">
                             <div class="column" style="font-size:25px;" >Estado : </div>  
-                            <div class="column" style="font-size:25px;" >Sin asignar </div>  
+                            <div class="column" style="font-size:25px;" >En Ruta</div>  
                           </div>
                         </table>
-                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala2">
+                          <i class="fas fa-clipboard-check"></i> Revisar Ruta
                         </a>       
                         </div>                        
                       </div>                      
                   </div>  
-
-                  <div class="col-sm-3">
-                      <div class="card card-danger ">
-                        <div class="card-header text-center">
-                          <h2 class="card-title text-center" >JM-1952</h2>
-                        </div>
-                        <div class="card-body" >
-                          <table>
-                          <div class="row sm-1" >
-                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
-                            <div class="column" style="font-size:25px;" >1928 </div>  
-                          </div>
-                          <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Valor orden : </div>  
-                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
-                          </div>
-                          <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Estado : </div>  
-                            <div class="column" style="font-size:25px;" >Sin asignar </div>  
-                          </div>
-                        </table>
-                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
-                        </a>       
-                        </div>                        
-                      </div>                      
-                  </div>  
-                  <div class="col-sm-3">
-                      <div class="card card-danger ">
-                        <div class="card-header text-center">
-                          <h2 class="card-title text-center" >JM-1952</h2>
-                        </div>
-                        <div class="card-body" >
-                          <table>
-                          <div class="row sm-1" >
-                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
-                            <div class="column" style="font-size:25px;" >1928 </div>  
-                          </div>
-                          <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Valor orden : </div>  
-                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
-                          </div>
-                          <div class="row sm-1">
-                            <div class="column" style="font-size:25px;" >Estado : </div>  
-                            <div class="column" style="font-size:25px;" >Sin asignar </div>  
-                          </div>
-                        </table>
-                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
-                        </a>       
-                        </div>                        
-                      </div>                      
-                  </div>  
-                  <div class="col-sm-3">
-                    <div class="card card-green">
-                      <div class="card-header">
-                        <h3 class="card-title" style="font-size: xx-large;">JM-2001</h3>
-                      </div>
-                      <div class="card-body">
-                        <table>
-                        <div class="row">
-                          <div class="column">Codigo de cliente: </div>  
-                          <div class="column">1925 </div>  
-                        </div>
-                        <div class="row">
-                          <div class="column">Valor orden : </div>  
-                          <div class="column">Q 19.28 </div>  
-                        </div>
-                        <div class="row">
-                          <div class="column">Estado : </div>  
-                          <div class="column">En ruta </div>  
-                        </div>
-                        <div class="row">
-                          <div class="column">  </div>  
-                        </div>
-                      </table>
-                      <p> </p>
-                      </div>
-                    </div>                      
-                  </div>    
                 </div>                   
                     <!-- /.card-body -->
                   </div>
@@ -268,220 +187,166 @@ Contabilidad
 
           </div>
         </div>
-        <!-- container por prioridad -->
-        <div class="container-fluid" style="font-size: xx-large;">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card card-primary card-outline">
-                <div class="card-header">
-                  <h3 class="card-title" style="font-size: xx-large;">
-                    Prioridad Media
-                  </h3>
-                  <div class="card-tools">
-                <!-- Collapse Button -->
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
-                </div>
-                </div>
-                <div class="card-body">
-                  <div class="container-fluid">
-                    <div class="row mb-2">
-                      <div class="col-sm-3">
-                        <div class="card card-danger">
-                          <div class="card-header">
-                            <h3 class="card-title" style="font-size: xx-large;">JM-1952</h3>
-                          </div>
-                          <div class="card-body">
-                            <table>
-                            <div class="row">
-                              <div class="column">Codigo de cliente: </div>  
-                              <div class="column">1928 </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">Valor orden : </div>  
-                              <div class="column">Q 19.28 </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">Estado : </div>  
-                              <div class="column">Sin asignar </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">  </div>  
-                            </div>
-                          </table>
-                          <p></p>
-                        <a class="btn btn-sm" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
-                        </a>         
-                          </div>
-                        </div>                      
-                    </div>    
-                    <div class="col-sm-3">
-                      <div class="card card-danger">
-                        <div class="card-header">
-                          <h3 class="card-title" style="font-size: xx-large;">JM-1954</h3>
-                        </div>
-                        <div class="card-body">
-                          <table>
-                          <div class="row">
-                            <div class="column">Codigo de cliente: </div>  
-                            <div class="column">1928 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Valor orden : </div>  
-                            <div class="column">Q 19.28 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Estado : </div>  
-                            <div class="column">Sin asignar </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">  </div>  
-                          </div>
-                        </table>
-                        <p></p>
-                        <a class="btn btn-sm" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
-                        </a>         
-                        </div>
-                      </div>                      
-                    </div>    
-                    <div class="col-sm-3">
-                      <div class="card card-green">
-                        <div class="card-header">
-                          <h3 class="card-title"style="font-size: xx-large;">JM-2001</h3>
-                        </div>
-                        <div class="card-body">
-                          <table>
-                          <div class="row">
-                            <div class="column">Codigo de cliente: </div>  
-                            <div class="column">1925 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Valor orden : </div>  
-                            <div class="column">Q 19.28 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Estado : </div>  
-                            <div class="column">En ruta </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">  </div>  
-                          </div>
-                        </table>
-                        <p> </p>
-                        </div>
-                      </div>                      
-                    </div>    
-                  </div>                   
-                      <!-- /.card-body -->
-                    </div>
-                  </div>
-        <!-- container por prioridad -->
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card card-primary card-outline">
-                <div class="card-header">
-                  <h3 class="card-title" style="font-size: xx-large;">
-                    Prioridad baja
-                  </h3>
+        <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title " >
+                  Prioridad Media
+                </h3>
                 <div class="card-tools">
                 <!-- Collapse Button -->
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
                 </div>
-                </div>
-                <div class="card-body">
-                  <div class="container-fluid">
-                    <div class="row mb-2">
-                      <div class="col-sm-3">
-                        <div class="card card-danger">
-                          <div class="card-header">
-                            <h3 class="card-title" style="font-size: xx-large;">JM-1952</h3>
-                          </div>
-                          <div class="card-body">
-                            <table>
-                            <div class="row">
-                              <div class="column">Codigo de cliente: </div>  
-                              <div class="column">1928 </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">Valor orden : </div>  
-                              <div class="column">Q 19.28 </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">Estado : </div>  
-                              <div class="column">Sin asignar </div>  
-                            </div>
-                            <div class="row">
-                              <div class="column">  </div>  
-                            </div>
-                          </table>
-                          <p></p>
-                          <a class="btn btn-sm" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                            <i class="fas fa-edit"></i> Asignar
-                          </a>           
-                          </div>
-                        </div>                      
-                    </div>    
-                    <div class="col-sm-3">
-                      <div class="card card-danger">
-                        <div class="card-header">
-                          <h3 class="card-title" style="font-size: xx-large;">JM-1954</h3>
-                        </div>
-                        <div class="card-body">
-                          <table>
-                          <div class="row">
-                            <div class="column">Codigo de cliente: </div>  
-                            <div class="column">1928 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Valor orden : </div>  
-                            <div class="column">Q 19.28 </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">Estado : </div>  
-                            <div class="column">Sin asignar </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">  </div>  
-                          </div>
-                        </table>
-                        <p></p>
-                        <a class="btn btn-sm" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
-                          <i class="fas fa-edit"></i> Asignar
-                        </a>         
-                        </div>
-                      </div>                      
-                    </div>    
-                    <div class="col-sm-3">
+              </div>
+              <div class="card-body">
+                <div class="container-fluid slidebar ">
+                  <div class="row mb-2 align-items-center">
+                  <div class="col-sm-3">
                       <div class="card card-green">
-                        <div class="card-header">
-                          <h3 class="card-title" style="font-size: xx-large;">JM-2001</h3>
+                        <div class="card-header text-center">
+                          <h2 class="card-title text-center" >JM-1952</h2>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" >
                           <table>
-                          <div class="row">
-                            <div class="column">Codigo de cliente: </div>  
-                            <div class="column">1925 </div>  
+                          <div class="row sm-1" >
+                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
+                            <div class="column" style="font-size:25px;" >1928 </div>  
                           </div>
-                          <div class="row">
-                            <div class="column">Valor orden : </div>  
-                            <div class="column">Q 19.28 </div>  
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
+                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
                           </div>
-                          <div class="row">
-                            <div class="column">Estado : </div>  
-                            <div class="column">En ruta </div>  
-                          </div>
-                          <div class="row">
-                            <div class="column">  </div>  
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Estado : </div>  
+                            <div class="column" style="font-size:25px;" >Factura Generada</div>  
                           </div>
                         </table>
-                        <p> </p>
-                        </div>
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
+                          <i class="fas fa-clipboard-check"></i> Asignar Ruta
+                        </a>       
+                        </div>                        
                       </div>                      
-                    </div>    
-                  </div>                   
-                      <!-- /.card-body -->
+                  </div>  
+                  <div class="col-sm-3">
+                      <div class="card card-info">
+                        <div class="card-header text-center">
+                          <h2 class="card-title text-center" >JM-1952</h2>
+                        </div>
+                        <div class="card-body" >
+                          <table>
+                          <div class="row sm-1" >
+                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
+                            <div class="column" style="font-size:25px;" >1928 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
+                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Estado : </div>  
+                            <div class="column" style="font-size:25px;" >En Ruta</div>  
+                          </div>
+                        </table>
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala2">
+                          <i class="fas fa-clipboard-check"></i> Revisar Ruta
+                        </a>       
+                        </div>                        
+                      </div>                      
+                  </div>  
+                </div>                   
+                                    <!-- /.card-body -->
+                  </div>
+                  
+                </div>
+               
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+ 
+        <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title " >
+                  Prioridad Baja
+                </h3>
+                <div class="card-tools">
+                <!-- Collapse Button -->
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+              <div class="card-body">              
+                <div class="container-fluid slidebar ">
+                  <div class="row mb-2 align-items-center">
+                  <div class="col-sm-3">
+                      <div class="card card-green">
+                        <div class="card-header text-center">
+                          <h2 class="card-title text-center" >JM-1952</h2>
+                        </div>
+                        <div class="card-body" >
+                          <table>
+                          <div class="row sm-1" >
+                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
+                            <div class="column" style="font-size:25px;" >1928 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
+                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Estado : </div>  
+                            <div class="column" style="font-size:25px;" >Factura Generada</div>  
+                          </div>
+                        </table>
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala1">
+                          <i class="fas fa-clipboard-check"></i> Asignar Ruta
+                        </a>       
+                        </div>                        
+                      </div>                      
+                  </div>  
+                  <div class="col-sm-3">
+                      <div class="card card-info">
+                        <div class="card-header text-center">
+                          <h2 class="card-title text-center" >JM-1952</h2>
+                        </div>
+                        <div class="card-body" >
+                          <table>
+                          <div class="row sm-1" >
+                            <div class="column" style="font-size:25px;" >Codigo de cliente: </div>  
+                            <div class="column" style="font-size:25px;" >1928 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Valor Pedido : </div>  
+                            <div class="column" style="font-size:25px;" >Q 19.28 </div>  
+                          </div>
+                          <div class="row sm-1">
+                            <div class="column" style="font-size:25px;" >Estado : </div>  
+                            <div class="column" style="font-size:25px;" >En Ruta</div>  
+                          </div>
+                        </table>
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala2">
+                          <i class="fas fa-clipboard-check"></i> Revisar Ruta
+                        </a>       
+                        </div>                        
+                      </div>                      
+                  </div>  
+                </div>                   
+                    <!-- /.card-body -->
+                  </div>                  
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>             
+        <!-- /.card-body -->
                     </div>
                   </div>
                                        <!-- /.fin container -->
@@ -546,13 +411,13 @@ Contabilidad
   <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
-          <div class="modal-header" style="background-color: red; color: white; font-style: inherit; font-size: xx-large;">
-              <h2 class="modal-title">  Asignacion de pedidos </h2>
+          <div class="modal-header" style="background-color: green; color: white; font-style: inherit; font-size: xx-large;">
+              <h2 class="modal-title">  Asignar Ruta </h2>
               <button type="button" class="close" data-dismiss="modal">×</button>
           </div>
           <div class="modal-body">
               <div class="form-group" >
-                  <label for="field-1" class="col-sm-4 control-label">Numero de Recibo</label>
+                  <label for="field-1" class="col-sm-4 control-label">Numero Pedido</label>
                   <div class="col-sm-12">
                       <input type="text" class="form-control" id="id_recibo" name="id_recibo" value="JM-1951" required autofocus readonly />
                   </div>
@@ -573,7 +438,7 @@ Contabilidad
                   </div>
               </div>
               <div class="form-group">
-                <label for="field-1" class="col-sm-6 control-label">Monto Recibo</label>
+                <label for="field-1" class="col-sm-6 control-label">Monto Pedido</label>
                 <div class="col-sm-12">
                     <input type="text" class="form-control" id="Monto_ingreso" name="Monto_ingreso" value="19.28" required autofocus readonly />
                 </div>
@@ -584,10 +449,50 @@ Contabilidad
                   <input type="text" class="form-control" id="estado_pedido" name="estado_pedido" value="Pendiente" required autofocus readonly />
                 </div>  
               </div>               
-              <div class="form-group">
-                <label for="field-1" class="col-sm-6 control-label">Asignar a empleado</label>
+              <div class="table-responsive-lg">
                 <div class="col-sm-12">
-                  <input type="text" class="form-control" id="Codigo_empleado" name="Codigo_empleado" value="" required autofocus />
+                  <table class="table table-striped w-auto " id="table_export" style="font-size:25px; text-center">
+                    <thead>
+                      <tr>
+                        <th style="display:none"><div>Cod. Prod</div></th>
+                        <th style=""><div>Producto</div></th>
+                        <th style=""><div>Cantidad</div></th>
+                        <th style=""><div>Valor</div></th>
+                        <th style=""><div>Etiqueta</div></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="casa1">
+                        <td style="display:none">1112</td>
+                        <td style="">Aspirina</td>
+                        <td style="">1000</td>
+                        <td style="">1.00</td>
+                        <td style="">
+                          <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala3">
+                            <i class="fas fa-print"></i>
+                          </a>       
+                        </td>
+                      </tr>
+                      <tr id="casa1">
+                        <td style="display:none">1112</td>
+                        <td style="">Vitaflenaco</td>
+                        <td style="">1200</td>
+                        <td style="">3.00</td>
+                        <td style="">
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala3">
+                          <i class="fas fa-print"></i>
+                        </a>       
+                        </td>
+                      </tr>
+
+                    </tbody>  
+                  </table>
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="field-1" class="col-sm-6 control-label">Asignar ruta</label>
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="Asignar_ruta" name="Asignar_ruta" value="" required autofocus />
                 </div>                  
               </div>
               <div class="form-group">
@@ -596,7 +501,108 @@ Contabilidad
                 </div>
             </div>
             </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" id="myModala2" role="dialog">
+  <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header" style="background-color: blue; color: white; font-style: inherit; font-size: xx-large;">
+              <h2 class="modal-title">  Revision de pedidos </h2>
+              <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+              <div class="form-group" >
+                  <label for="field-1" class="col-sm-4 control-label">Numero Pedido</label>
+                  <div class="col-sm-12">
+                      <input type="text" class="form-control" id="id_recibo" name="id_recibo" value="JM-1951" required autofocus readonly />
+                  </div>
+              </div>
+              <div class="form-group">
+                <label for="field-1" class="col-sm-4 control-label">Codigo Cliente</label>
+                <div class="col-sm-4" style="display: none">
+                    <input type="text" class="form-control" id="id_Cliente" name="id_Cliente" value="1578" required autofocus readonly />
+                </div>
+                <div class="col-sm-12"> 
+                    <input type="text" class="form-control" id="nombre_Cliente" name="nombre_Cliente" value="Farmacia el ahorro" required autofocus readonly />
+                </div>
+              </div>
+              <div class="form-group">
+                  <label for="field-1" class="col-sm-6 control-label">Fecha de ingreso</label>
+                  <div class="col-sm-12">
+                      <input type="text" class="form-control" id="fecha_ingreso" name="fecha_ingreso" value="26/11/2021 11:02 pm" required autofocus readonly />
+                  </div>
+              </div>
+              <div class="form-group">
+                <label for="field-1" class="col-sm-6 control-label">Monto Pedido</label>
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="Monto_ingreso" name="Monto_ingreso" value="19.28" required autofocus readonly />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="field-1" class="col-sm-6 control-label">Estado de pedido</label>
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="estado_pedido" name="estado_pedido" value="Pendiente" required autofocus readonly />
+                </div>  
+              </div>               
+              <div class="table-responsive-lg">
+                <div class="col-sm-12">
+                  <table class="table table-striped w-auto " id="table_export" style="font-size:25px; text-center">
+                    <thead>
+                      <tr>
+                        <th style="display:none"><div>Cod. Prod</div></th>
+                        <th style=""><div>Producto</div></th>
+                        <th style=""><div>Cantidad</div></th>
+                        <th style=""><div>Valor</div></th>
+                        <th style=""><div>Etiqueta</div></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="casa1">
+                        <td style="display:none">1112</td>
+                        <td style="">Aspirina</td>
+                        <td style="">1000</td>
+                        <td style="">1.00</td>
+                        <td style="">
+                          <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala3">
+                            <i class="fas fa-print"></i>
+                          </a>       
+                        </td>
+                      </tr>
+                      <tr id="casa1">
+                        <td style="display:none">1112</td>
+                        <td style="">Vitaflenaco</td>
+                        <td style="">1200</td>
+                        <td style="">3.00</td>
+                        <td style="">
+                        <a class="btn btn-sm" style="font-size:30px; color:green;" href="#" title="Asignar pedidos" data-toggle="modal" data-target="#myModala3">
+                          <i class="fas fa-print"></i>
+                        </a>       
+                        </td>
+                      </tr>
 
+                    </tbody>  
+                  </table>
+                </div>
+                </div>
+              
+            </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModala3" role="dialog">
+  <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header" style="background-color: red; color: white; font-style: inherit; font-size: xx-large;">
+              <h2 class="modal-title">  Codigo de Producto </h2>
+              <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <img src="dist/img/Cod_barras.png" alt="Envio de Pedidos"  style="opacity: .8"> 
+          </div>
       </div>
   </div>
 </div>

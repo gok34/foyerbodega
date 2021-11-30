@@ -48,7 +48,12 @@ $routes->group('/Revision', ['namespace' => 'App\Controllers\Front'], function (
 $routes->group('/Certificador', ['namespace' => 'App\Controllers\Front'], function ($routes) {
     $routes->get('', 'Certificador::index');
 });
-
+$routes->group('/Contabilidad', ['namespace' => 'App\Controllers\Front'], function ($routes) {
+    $routes->get('', 'Contabilidad::index');
+});
+$routes->group('/Rutas', ['namespace' => 'App\Controllers\Front'], function ($routes) {
+    $routes->get('', 'Rutas::index');
+});
 /*
  * --------------------------------------------------------------------
  * Additional Routing
